@@ -2,13 +2,12 @@
   "name": "my-blog",
   "version": "0.0.0",
   "scripts": {
-    "zalupa": "ng build && node dist/my-blog/server/server.mjs",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:my-blog": "node dist/my-blog/server/server.mjs"
+    "server": "ng build && node dist/my-blog/server/server.mjs"
   },
   "private": true,
   "dependencies": {
